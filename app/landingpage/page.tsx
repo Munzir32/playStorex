@@ -43,26 +43,8 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-md border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <Gamepad2 className="h-8 w-8 text-purple-400" />
-              <span className="text-2xl font-bold text-white">PlayStoreX</span>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-white hover:text-purple-400 transition-colors">Features</a>
-              <a href="#how-it-works" className="text-white hover:text-purple-400 transition-colors">How It Works</a>
-              <a href="#pricing" className="text-white hover:text-purple-400 transition-colors">Pricing</a>
-              <ConnectButton />
-            </div>
-          </div>
-        </div>
-      </nav>
-
       {/* Hero Section */}
-      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-8 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div 
             className="text-center"

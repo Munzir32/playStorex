@@ -209,21 +209,6 @@ export default function Marketplace() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      {/* Header */}
-      <header className="bg-black/20 backdrop-blur-md border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <Gamepad2 className="h-8 w-8 text-purple-400" />
-              <span className="text-2xl font-bold text-white">PlayStoreX</span>
-            </div>
-            <div className="flex items-center space-x-4">
-              <ConnectButton />
-            </div>
-          </div>
-        </div>
-      </header>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Featured Assets Section */}
         <section className="mb-12">
