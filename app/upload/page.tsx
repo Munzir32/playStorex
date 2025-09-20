@@ -700,17 +700,17 @@ export default function AssetUpload() {
 
   // Show wallet connection prompt if not connected
   if (!isConnected) {
-    return (
+  return (
       <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
         <div className="text-center">
           <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <Wallet className="h-8 w-8 text-white" />
-          </div>
+            </div>
           <h2 className="text-2xl font-bold text-white mb-4">Wallet Required</h2>
           <p className="text-gray-300 mb-6">Please connect your wallet to upload gaming assets to Filecoin</p>
           <ConnectButton />
-        </div>
-      </div>
+              </div>
+              </div>
     );
   }
 
