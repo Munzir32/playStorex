@@ -10,10 +10,7 @@ import {
   Users, 
   DollarSign, 
   Globe, 
-  ArrowRight, 
-  Star,
   CheckCircle,
-  Play,
   Download,
   Upload,
   Wallet,
@@ -135,7 +132,7 @@ export default function LandingPage() {
               Why Choose PlayStoreX?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Built on Filecoin's decentralized infrastructure, PlayStoreX offers unprecedented 
+              Built on Filecoin&apos;s decentralized infrastructure, PlayStoreX offers unprecedented 
               benefits for gamers, creators, and developers.
             </p>
           </motion.div>
